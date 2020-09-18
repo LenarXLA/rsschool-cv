@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Tinos&display=swap');
+
+* {
+    background-color: #ececec;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(82, 23, 138);
+}
+
+img {
+    margin: 20px;
+}
+
+.firstLine,
+.secondLine,
+.thirdLine {
+    display: flex;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Tinos', serif;
+    text-align: center;
+}
+
+.headEl {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* !!!!!!!!!!!!!!!  SECTION 1 !!!!!!!!!!!!!*/
+.mainList {
+    font-size: 24px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.nameSection {
+    flex-direction: column;
+}
+
+.nameSection > h3 {
+    margin: 15px;
+}
+
+/* !!!!!!!!!!!!!!!  SECTION 2 !!!!!!!!!!!!!*/
+.langSection > ul > li > img {
+    margin: 0;
+    padding: 0;
+}
+
+.smallText {
+    font-size: 18px;
+}
+
+/* !!!!!!!!!!!!!!!  SECTION 3 !!!!!!!!!!!!!*/
+.educationSection > ul > li > a > span {
+    font-size: smaller;
+}
+
+
