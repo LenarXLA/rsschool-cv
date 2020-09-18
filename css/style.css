@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Tinos&display=swap');
 
+.mainBlock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 * {
     background-color: #ececec;
 }
