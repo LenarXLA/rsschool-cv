@@ -79,4 +79,9 @@ img {
     font-size: smaller;
 }
 
+.educate {
+    display: flex;
+    margin-right: 80px;
+}
+
 
